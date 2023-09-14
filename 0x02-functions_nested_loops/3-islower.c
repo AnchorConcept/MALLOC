@@ -1,13 +1,16 @@
-#include "maim.h"
+#include "main.h"
+
 /*
-*_islower - checks if a character is lowercase
-*@c: the character
-*Return: 1 if letter is lowercase, 0 if not
-*/
-int _islower(int C)
+ * print_alphabet - print lowercase
+ * Description: prints lowercase when called.
+ * Return: Always 0
+ */
+void print_alphabet(void)
 {
-	if (C >= 'a' && C <= 'z')
-return (1);
-else
-return (0);
+	char C;
+	for (C >= 97 && C <= 122)
+	{
+		_putchar (C);
+	}
+	_putchar(' \n ')
 }
