@@ -3,7 +3,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-int _putchar(char c)
+char *_memcpy(char
+*dest, char *src, unsigned
+int n)
 {
-return putchar(c);
+return memcpy(dest,
+src, n);
 }

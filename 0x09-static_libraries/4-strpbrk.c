@@ -3,7 +3,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-int _putchar(char c)
+char *_strpbrk(char *s,
+char *accept)
 {
-return putchar(c);
+return strpbrk(s,
+accept);
 }
